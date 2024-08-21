@@ -123,7 +123,11 @@
 
     /* skills */
     .skills > .container {
-        @apply text-sm leading-6;
+        @apply text-sm leading-6 text-main-500;
+    }
+
+    .skills-title {
+        @apply text-main-700;
     }
 
     .skills > .container strong {
@@ -135,7 +139,7 @@
     }
 
     .skills > .container .li-title {
-        @apply text-base;
+        @apply text-base leading-10 text-main-700;
     }
 
     /* contact and footer */

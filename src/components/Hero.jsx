@@ -18,9 +18,11 @@ const Hero = () => {
                     here to assist. Let's work together to unlock new
                     opportunities through the power of data.
                 </p>
-                <button className='hero-call-to-action-button'>
-                    Explore My Work
-                </button>
+                <a href='#projects'>
+                    <button className='hero-call-to-action-button'>
+                        Explore My Work
+                    </button>
+                </a>
             </div>
         </div>
     );

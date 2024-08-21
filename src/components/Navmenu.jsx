@@ -8,19 +8,29 @@ const Navmenu = ({ open, close }) => {
             <ul className='nav-menu'>
                 {/* <li className='close-menu'>&times;</li> */}
                 <li>
-                    <a href='#'>Home</a>
+                    <a href='#' onClick={close}>
+                        Home
+                    </a>
                 </li>
                 <li>
-                    <a href='#'>About me</a>
+                    <a href='#about' onClick={close}>
+                        About me
+                    </a>
                 </li>
                 <li>
-                    <a href='#'>Projects</a>
+                    <a href='#projects' onClick={close}>
+                        Projects
+                    </a>
                 </li>
                 <li>
-                    <a href='#'>Resume / cv</a>
+                    <a href='#resume' onClick={close}>
+                        Resume / cv
+                    </a>
                 </li>
                 <li>
-                    <a href='#'>Contact me</a>
+                    <a href='#contact' onClick={close}>
+                        Contact me
+                    </a>
                 </li>
                 <li className='close-menu-2' onClick={close}>
                     <CloseRoundedIcon />
