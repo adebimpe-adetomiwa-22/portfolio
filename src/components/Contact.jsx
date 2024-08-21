@@ -21,13 +21,6 @@ const Contact = () => {
                             className=''
                             size='small'
                             variant='standard'
-                            sx={{
-                                input: {
-                                    color: 'red',
-                                    outline: 'red',
-                                    border: 'red',
-                                },
-                            }}
                         />
                         <TextField
                             label='Message'
