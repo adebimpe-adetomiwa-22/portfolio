@@ -19,13 +19,19 @@ const Navbar = () => {
         <div className='navbar'>
             <div className='container'>
                 <h2 className='nav-bar-title'>Adetomiwa</h2>
-                <IconButton onClick={closeDrawer}>
-                    <DragHandleRoundedIcon />
-                </IconButton>
+
+                <div className='hamburger'>
+                    <IconButton onClick={closeDrawer}>
+                        <DragHandleRoundedIcon />
+                    </IconButton>
+                </div>
                 {/* <IconButton onClick={closeDrawer} size='small'>
                     <MenuIcon />
                 </IconButton> */}
-                <Navmenu open={open} close={closeDrawer} />
+                <div className='hidden md:flex'>
+                    <Navmenu open={true} close={closeDrawer} type='show' />
+                </div>
+                <Navmenu open={open} close={closeDrawer} type='toggle' />
             </div>
         </div>
     );

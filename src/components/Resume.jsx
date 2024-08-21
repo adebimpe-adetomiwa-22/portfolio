@@ -32,6 +32,26 @@ const Resume = () => {
                             </IconButton>
                         </a>
                     </div>
+
+                    <div className='cert'>
+                        <p className='cert-title body'>My Resume</p>
+                        <img
+                            src={ciscoCertImage}
+                            alt='cert image'
+                            title='cert image'
+                            className='cert-image'
+                        />
+
+                        <a
+                            href={ciscoCert}
+                            download={true}
+                            className='download-cert'
+                        >
+                            <IconButton color='inherit'>
+                                <DownloadRoundedIcon size='large' />
+                            </IconButton>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
