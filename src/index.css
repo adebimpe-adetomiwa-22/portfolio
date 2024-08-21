@@ -117,7 +117,7 @@
     } */
     .about-info {
         @apply flex flex-col gap-5;
-        @apply sm:flex-row;
+        @apply sm:flex-row sm:items-center;
     }
     .about-image {
         @apply w-full h-56 object-contain object-top;
