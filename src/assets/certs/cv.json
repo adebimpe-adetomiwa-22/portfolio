@@ -1,0 +1,224 @@
+{
+    "basics": {
+        "url": {
+            "href": "https://adebimpe-adetomiwa-22.github.io/",
+            "label": "Personal Website"
+        },
+        "name": "Adebimpe Adetomiwa",
+        "email": "adebimpeadetomiwa3@gmail.com",
+        "phone": "+2348149778099",
+        "picture": {
+            "url": "https://lh3.googleusercontent.com/a/ACg8ocLkS3kgxX15iagffgFIn83uwTRyDpGwaOQ0SzTzCk7aZocu7Ws=s96-c",
+            "size": 64,
+            "effects": {
+                "border": false,
+                "hidden": false,
+                "grayscale": false
+            },
+            "aspectRatio": 1,
+            "borderRadius": 0
+        },
+        "headline": "Entry-Level Software Developer and Data Analyst",
+        "location": "Nigeria",
+        "customFields": []
+    },
+    "metadata": {
+        "css": {
+            "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+            "visible": false
+        },
+        "page": {
+            "format": "a4",
+            "margin": 18,
+            "options": {
+                "breakLine": true,
+                "pageNumbers": true
+            }
+        },
+        "notes": "",
+        "theme": {
+            "text": "#000000",
+            "primary": "#dc2626",
+            "background": "#ffffff"
+        },
+        "layout": [
+            [
+                [
+                    "profiles",
+                    "summary",
+                    "experience",
+                    "education",
+                    "projects",
+                    "volunteer",
+                    "references"
+                ],
+                [
+                    "skills",
+                    "interests",
+                    "certifications",
+                    "awards",
+                    "publications",
+                    "languages"
+                ]
+            ]
+        ],
+        "template": "rhyhorn",
+        "typography": {
+            "font": {
+                "size": 14,
+                "family": "IBM Plex Serif",
+                "subset": "latin",
+                "variants": ["regular", "italic", "600"]
+            },
+            "hideIcons": false,
+            "lineHeight": 1.5,
+            "underlineLinks": true
+        }
+    },
+    "sections": {
+        "awards": {
+            "id": "awards",
+            "name": "Awards",
+            "items": [],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        },
+        "custom": {},
+        "skills": {
+            "id": "skills",
+            "name": "Skills",
+            "items": [
+                "Proficient in HTML, CSS, JavaScript, and React",
+                "Experienced with Redux Toolkit, Material UI, and TailwindCSS",
+                "Knowledgeable in Node.js and Express for backend development",
+                "Strong skills in data analysis with Python, Pandas, Matplotlib, Excel",
+                "Experienced in data collection and cleaning using ODK, Google Forms, Microsoft Forms"
+            ],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        },
+        "summary": {
+            "id": "summary",
+            "name": "Summary",
+            "columns": 1,
+            "content": "I am an entry-level software developer and data analyst with a strong focus on front-end development. My skills include building interactive web applications using React, and I have experience with data analysis tools and techniques. I am passionate about leveraging my technical skills to solve complex problems and deliver valuable insights.",
+            "visible": true,
+            "separateLinks": true
+        },
+        "profiles": {
+            "id": "profiles",
+            "name": "Profiles",
+            "items": [],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        },
+        "projects": {
+            "id": "projects",
+            "name": "Projects",
+            "items": [
+                {
+                    "title": "Todo App",
+                    "description": "A task management app developed using React, React Router, and TailwindCSS. Features include adding, editing, and deleting tasks.",
+                    "url": "https://github.com/Adebimpe-Adetomiwa/todo-app"
+                },
+                {
+                    "title": "Tenzies Game",
+                    "description": "A fun dice game built with React. Users roll dice to match all to a target number.",
+                    "url": "https://github.com/Adebimpe-Adetomiwa/tenzies-game"
+                }
+            ],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        },
+        "education": {
+            "id": "education",
+            "name": "Education",
+            "items": [
+                {
+                    "institution": "Ajayi Crowther University",
+                    "degree": "Bachelor's Degree in Biochemistry",
+                    "startDate": "2017-01-01",
+                    "endDate": "2022-12-31"
+                }
+            ],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        },
+        "interests": {
+            "id": "interests",
+            "name": "Interests",
+            "items": ["Manhwa", "Software Development", "Data Analysis"],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        },
+        "languages": {
+            "id": "languages",
+            "name": "Languages",
+            "items": ["English", "Yoruba"],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        },
+        "volunteer": {
+            "id": "volunteer",
+            "name": "Volunteering",
+            "items": [],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        },
+        "experience": {
+            "id": "experience",
+            "name": "Experience",
+            "items": [
+                {
+                    "title": "Software Developer",
+                    "company": "Freelance",
+                    "startDate": "2023-01-01",
+                    "endDate": "Present",
+                    "summary": "Developing interactive web applications using React, Redux Toolkit, and TailwindCSS."
+                },
+                {
+                    "title": "Data Analyst",
+                    "company": "Freelance",
+                    "startDate": "2023-01-01",
+                    "endDate": "Present",
+                    "summary": "Performing data analysis using Python, Pandas, and Matplotlib, and conducting data collection and cleaning with tools such as ODK, Google Forms, and Microsoft Forms."
+                }
+            ],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        },
+        "references": {
+            "id": "references",
+            "name": "References",
+            "items": [],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        },
+        "publications": {
+            "id": "publications",
+            "name": "Publications",
+            "items": [],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        },
+        "certifications": {
+            "id": "certifications",
+            "name": "Certifications",
+            "items": [],
+            "columns": 1,
+            "visible": true,
+            "separateLinks": true
+        }
+    }
+}
